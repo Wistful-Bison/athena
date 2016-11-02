@@ -30,7 +30,7 @@ Smart support platform that focuses on providing high quality solutions, reducin
 
 ## Usage
 
-In order to run this application, you will first need to clone down and install the dependencies from each of the respective services. The full instructions are listed below:
+In order to run this application, you will first need to clone down and install the dependencies from each respective service. The full instructions are listed below:
   
 Download:
   
