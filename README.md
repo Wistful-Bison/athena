@@ -2,6 +2,16 @@
 
 Smart support platform that focuses on providing high quality solutions, reducing customer pain points, and delivering relevant knowledge to decision makers.
 
+## Table of Contents
+
+1. [Project Files](#project-files)
+2. [Team](#team)
+3. [Contributing](#contributing)
+4. [Requirements](#requirements)
+5. [Usage](#usage)
+    1. [Installing Dependencies](#installing-dependencies)
+    2. [To Run](#to-run)
+
 ## Project Files
 
 This application was built with service-oriented architecture in mind. Therefore, this project contains services that are spread over a number of github repos(one per service). These necessary project files can be found by visiting the following links:
@@ -25,17 +35,6 @@ This application was built with service-oriented architecture in mind. Therefore
   - Front-end: Amelia Brown
   - Front-end: Cary Meskell
   - Back-end: Bradford Melluish
-
-## Table of Contents
-
-1. [Project Files](#project-files)
-2. [Team](#team)
-3. [Contributing](#contributing)
-4. [Requirements](#requirements)
-5. [Usage](#Usage)
-6. [Requirements](#requirements)
-    1. [Installing Dependencies](#installing-dependencies)
-    2. [To Run](#to-run)
 
 ## Requirements
 
@@ -92,30 +91,30 @@ Download:
       cd kbSearch
       npm install
 
-  To Run:
+## To Run
   
-     Start databases:
+ Start databases:
     
          In Terminal, mongod
          Start postgreSQL server
       
-     Start elasticSearch:
+ Start elasticSearch:
          
          In Terminal, cd <elasticsearch_directory>
          In Terminal, bin/elasticsearch
      
-     Start services:
+ Start services:
      
          In Terminal in parent directory, cd athena
          In Terminal, npm start   // runs nodemon for user, ticket, kb, and kbSearch services
          
-     Start app:
+ Start app:
      
          In Terminal in parent directory, cd athenaApp
          In Terminal, webpack --watch
          In Terminal, npm start
          
-     Visit http://localhost:3000 and Voila!
+ Visit http://localhost:3000 and Voila!
 
 
 ![alt tag](http://www.carymeskell.com/portfolio/athenaPortfolio.jpg)
